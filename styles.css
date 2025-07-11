@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+
+/* .nav-menu { 
+    color:blueviolet !important;
+   
+    padding: 0;
+} */
+.nav-menu li { border: 1px solid black;
+    display: inline;
+    margin-right: 10px;  
+    /* padding-right: 10px;   */
+    list-style: none;
+}
