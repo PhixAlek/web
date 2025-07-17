@@ -1,0 +1,50 @@
+/* Fondo oscuro y tipografía coherente con el sitio */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 2rem 0;
+}
+
+/* Grid principal */
+.grid-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Card de cada servicio */
+.card {
+  background-color: #1f1f1f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #0004;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  color: #00bfff;
+}
+
+.card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
