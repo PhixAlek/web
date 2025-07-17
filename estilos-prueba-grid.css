@@ -1,0 +1,67 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.empresas-fronted {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "empresa1 empresa1 imagen1"
+    "imagen2 empresa2 empresa2"
+    "empresa3 empresa3 imagen3";
+  padding: 0 0%;
+}
+
+.item1 {
+  grid-area: empresa1;
+}
+
+.item2 {
+  grid-area: empresa2;
+}
+
+.item3 {
+  grid-area: empresa3;
+}
+
+.item4 {
+  grid-area: imagen1;
+}
+.item5 {
+  grid-area: imagen2;
+}
+.item6 {
+  grid-area: imagen3;
+}
+
+.card-empresa {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #0004;
+  transition: transform 0.3s ease;
+}
+.card-empresa:hover {
+  transform: scale(1.05);
+}
+
+.card-empresa-imagen {
+  background-image: url("https://www.example.com/imagen.jpg");
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-empresa h3 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  color: #00bfff;
+}
+
+.card-empresa p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}

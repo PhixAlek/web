@@ -23,6 +23,11 @@ body {
   margin: 0 auto;
 }
 
+.grid-servicios a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Card de cada servicio */
 .card {
   background-color: #1f1f1f;
