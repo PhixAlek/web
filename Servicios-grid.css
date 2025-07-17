@@ -16,7 +16,7 @@ body {
 /* Grid principal */
 .grid-servicios {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(8, minmax(200px, 3fr));
   gap: 2rem;
   padding: 2rem;
   max-width: 1000px;
