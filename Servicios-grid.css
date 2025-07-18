@@ -6,7 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.nav-menu{
+  display: flex;
+}
 .titulo-principal {
   text-align: center;
   font-size: 2.2rem;
