@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Servicios</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./servicios-grid.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./servicios-grid.css" />
+  </head>
 
-  <header>
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./Servicios.html">Servicios</a></li>
-      </ul>
-    </nav>
-  </header>
+  <body>
+    <header class="site-header">
+      <nav class="nav-menu">
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Abrir menú"
+        />
+        <label for="nav-toggle" class="nav-toggle-label">☰</label>
 
-  <main>
-    <h1 class="titulo-principal">Nuestros Servicios</h1>
+        <ul id="primary-menu">
+          <li class="nav-home">Inicio</li>
+          <li class="nav-servicios">
+            <a href="./Servicios.html">Servicios</a>
+          </li>
+          <li class="nav-extra nav-sobremi"><a href="#">Sobre mí</a></li>
+          <li class="nav-extra nav-contacto"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="grid-servicios">
-      <div class="card">💻 <h3>Frontend</h3> <p>Interfaz de usuario moderna.</p></div>
-      <div class="card">🔧 <h3>Backend</h3> <p>Lógica, bases de datos y servidores.</p></div>
-      <div class="card">🎨 <h3>CSS</h3> <p>Estilos, animaciones y diseño.</p></div>
-      <div class="card">📄 <h3>HTML</h3> <p>Estructura semántica de la web.</p></div>
-      <div class="card">⚙️ <h3>JavaScript</h3> <p>Interactividad y lógica en el navegador.</p></div>
-    </section>
-  </main>
+    <main>
+      <h1 class="titulo-principal">Nuestros Servicios</h1>
 
-</body>
+      <section class="grid-servicios">
+        <div class="card">
+          💻
+          <h3>Frontend</h3>
+          <p>Interfaz de usuario moderna.</p>
+        </div>
+        <div class="card">
+          🔧
+          <h3>Backend</h3>
+          <p>Lógica, bases de datos y servidores.</p>
+        </div>
+        <div class="card">
+          🎨
+          <h3>CSS</h3>
+          <p>Estilos, animaciones y diseño.</p>
+        </div>
+        <div class="card">
+          📄
+          <h3>HTML</h3>
+          <p>Estructura semántica de la web.</p>
+        </div>
+        <div class="card">
+          ⚙️
+          <h3>JavaScript</h3>
+          <p>Interactividad y lógica en el navegador.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Mi Primera Web. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
