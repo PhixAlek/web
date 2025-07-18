@@ -1,0 +1,54 @@
+body {  background-color: #121212;
+        margin: 0;
+        padding: 0;}
+* {color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {text-decoration: none;}
+
+.nav-menu ul {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  list-style: none;
+  justify-content: center;
+  background-color: #1f1f1f;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  ;}
+h1 {    text-align: center;
+        margin: 5rem;
+        font-size: 3.5rem;}
+
+main{
+    height: 800px;
+}
+
+footer {    background-color: #1f1f1f;
+            display: flex;
+            justify-content: center;}
+
+.derechos { align-content: baseline;}
+
+div {}
+
+.sedes{ display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 3rem;
+        text-align: center;
+        gap: 2rem;
+
+        ;}
+.card { padding: 10px 5px;
+        background-color: #1f1f1f;
+        border-radius: 10%
+        ;}
+
+.card h3 {font-size: 2rem;}
+
+
+
+
+
+        }
